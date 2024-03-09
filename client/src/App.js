@@ -1,13 +1,14 @@
-import Home from "./components/pages/Home";
+import React from 'react';
+import Allroutes from './components/Routes/Allroutes';
 
-
-function App() {
+const App = () => {
   return (
-    <div>
   
- <Home />
-    </div>
+     <div>
+      <Allroutes />
+     </div>
   );
-}
+};
 
 export default App;
+
